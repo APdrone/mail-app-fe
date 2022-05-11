@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { ChangeMailSent, ChangeViewMail } from "../store/UserSlice";
+import { ChangeViewMail } from "../store/UserSlice";
 import ComposeMsg from "./ComposeMsg";
 
 const Main = () => {
@@ -56,6 +56,7 @@ const Main = () => {
     };
 
     getMails();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (

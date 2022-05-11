@@ -38,6 +38,7 @@ const ViewMail = () => {
     };
 
     getMails();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // const {subject,fromUser,body}=mail;

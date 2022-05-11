@@ -134,7 +134,7 @@ const Sidebar = () => {
           </span>
           Important
         </li>
-        <li className="flex gap-3 cursor-pointer" onClick={handleSent}>
+        <li className="flex gap-3 cursor-pointer " onClick={handleSent}>
           <span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
